@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: gcr.io/google-samples/hello-app:2.0
+
+service:
+  type: LoadBalancer
+  port: 8080
+
+name: hello-app
